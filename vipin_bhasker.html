@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovfide</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="logo" href="#">
+            <img src="./Images/logo.png" alt="logo" height="100"></a>
+        <div class="menu">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#" id="contact">Contact</a>
+        </div>
+    </div>
+    <header class="contactBar">
+        <a class="title" href="#">Contact Us</a>
+        <div class="menuPath">
+            <a href="#">Home</a>
+            &#x3e;
+            <a href="#">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="rightContent">
+            <div class="heading">Get in touch with us</div>
+            <p class="para">Contact us for a Website, Mobile application, Digital marketing <br> or IT Support.</p>
+
+            <div class="location">
+                <img src="./Images/address.png" alt="address" height="80">
+                Innovfide Technologies <br>
+                Anulekha, Anurag Nagar, Tulinj, <br>
+                Nallasopara East
+            </div>
+            <div class="location">
+                <img src="./Images/email.png" alt="email" height="80">
+                business@innovfide.com
+            </div>
+            <div class="location">
+                <img src="./Images/phone.png" alt="phone" height="80">
+                +91 8767484648
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="leftContent">
+
+            <form class="myForm" action="">
+                <div class="name">
+                    <div class="fname">
+                        <label for="fname">First Name: <span>*</span></label>
+                        <input type="text" id="fname" name="fname" required name="driver"
+                            placeholder="Please enter your First Name" minlength="3" maxlength="30">
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Last Name: <span>*</span></label>
+                        <input type="text" id="lname" name="lname" required name="driver"
+                            placeholder="Please enter your Last Name" minlength="3" maxlength="30">
+                    </div>
+                </div>
+                <div class="communication">
+                    <div class="email">
+                        <label for="email">Email: <span>*</span></label>
+                        <input type="text" id="email" name="email" placeholder="Please enter your Email">
+                    </div>
+                    <div class="phone">
+                        <label for="phone">Phone: <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="Please enter your Phone No.">
+                    </div>
+                </div>
+                <div class="website">
+
+                    <legend>Do you have a Website? <span>*</span></legend>
+                    <div class="radio">
+                        <input type="radio" required name="driver" id="r1" value="yes"><label for="r1">Yes</label>
+                        <input type="radio" required name="driver" id="r2" value="no"><label for="r2">No</label>
+                    </div>
+                </div>
+                <div class="websiteURL">
+                    <label for="url">Website URL:</label>
+                    <input type="url" placeholder="Please enter your Website URL">
+                </div>
+
+                <button>SUBMIT</button>
+            </form>
+
+        </div>
+
+    </main>
+    <hr>
+    <div class="footer">All Rights Reserved | <a href="#" class="span"> Innovfide Technologies </a> | 2022</div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
